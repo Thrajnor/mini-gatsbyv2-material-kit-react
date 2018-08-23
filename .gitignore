@@ -6,3 +6,5 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
+
+/material-kit-react-v1.2.0
