@@ -1,9 +1,19 @@
 import React from 'react'
-import LandingPage from 'pages/LandingPage/LandingPage';
+import Button from "components/CustomButtons/Button.jsx";
 
 
 const IndexPage = () => (
-  <LandingPage></LandingPage>
+  <>
+    <Button
+      color="danger"
+      size="lg"
+      href="#"
+      // target="_blank"
+    >
+      Watch video
+    </Button>
+    <p>1.0</p>
+  </>
 )
 
 export default IndexPage
